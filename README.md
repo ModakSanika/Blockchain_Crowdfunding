@@ -2,11 +2,13 @@
 CrowdFunding using blockchain
 
 **🔹 1. Start Ganache**
+
 Open Ganache (Download if not installed: Truffle Suite - Ganache)
 Click "Quickstart Ethereum" to start a new workspace.
 Note the RPC Server URL (Default: http://127.0.0.1:7545).
 
 **🔹 2. Set Up MetaMask**
+
 Open the MetaMask browser extension.
 Click on the network dropdown → Select "Add Network".
 Enter the following details:
@@ -17,12 +19,14 @@ Currency Symbol: ETH
 Save and switch to the Ganache network.
 
 **🔹 3. Import Ganache Accounts to MetaMask**
+
 In Ganache, copy the private key of any account.
 In MetaMask, click your profile icon → Import Account.
 Paste the private key → Click Import.
 Now, this account has 100 ETH from Ganache.
 
-**🔹 4. Set Up Smart Contrac**t
+**🔹 4. Set Up Smart Contract**
+
 Open Terminal inside the crowdfunding-contracts folder.
 Run the following command to install dependencies:
 
@@ -32,6 +36,7 @@ Initialize a Truffle project (if not already done):
 truffle init
 Copy your Crowdfunding.sol contract into the contracts/ folder.
 **🔹 5. Configure Truffle**
+
 Open the truffle-config.js file.
 Add the following configuration:
 
@@ -50,7 +55,9 @@ module.exports = {
   }
 };
 Save the file.
+
 🔹 **6. Deploy the Smart Contract**
+
 Create a migration file inside the migrations/ folder:
 
 
@@ -70,6 +77,7 @@ truffle migrate --reset
 Copy the contract address from the output.
 
 **🔹 7. Connect the Frontend**
+
 Open your React project folder.
 In src/contracts/CrowdfundingABI.json, update the contract address:
 json
