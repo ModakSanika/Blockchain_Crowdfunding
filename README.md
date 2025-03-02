@@ -35,6 +35,7 @@ Initialize a Truffle project (if not already done):
 
 truffle init
 Copy your Crowdfunding.sol contract into the contracts/ folder.
+
 **🔹 5. Configure Truffle**
 
 Open the truffle-config.js file.
@@ -60,9 +61,7 @@ Save the file.
 
 Create a migration file inside the migrations/ folder:
 
-
 Open the file and add:
-
 
 const Crowdfunding = artifacts.require("Crowdfunding");
 
@@ -96,9 +95,15 @@ Start the React app:
 npm run dev
 
 **🔹 8. Run & Test the dApp**
+
 Open MetaMask and ensure it's on the Ganache network.
+
 Click "Connect Wallet" in the UI.
+
 Create a new project and submit it.
+
 Fund a project from another MetaMask account.
+
 If the funding goal is reached, withdraw funds as the project creator.
+
 If the funding goal is not reached, contributors can claim refunds.
