@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  background: linear-gradient(135deg, #f3e7ff 0%, #d9b3ff 100%);
+  color: #1a1a1a;
+  min-height: 100vh;
+}
+
+/* Animation for heart icon */
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.2); }
+}
+
+.animate-pulse {
+  animation: pulse 1.5s infinite;
+}

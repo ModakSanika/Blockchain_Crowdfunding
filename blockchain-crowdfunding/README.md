@@ -1,4 +1,4 @@
-# Blockchain Crowdfunding Platform
+# CrowdFunding-Udaan
 
 A decentralized crowdfunding platform built with Next.js, Solidity, and Web3.js. This platform allows users to create and fund projects using blockchain technology.
 
@@ -28,8 +28,8 @@ A decentralized crowdfunding platform built with Next.js, Solidity, and Web3.js.
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/blockchain-crowdfunding.git
-cd blockchain-crowdfunding
+git clone https://github.com/ModakSanika/CrowdFunding-Udaan.git
+cd CrowdFunding-Udaan
 ```
 
 2. Install dependencies:
